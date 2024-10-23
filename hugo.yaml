@@ -1,6 +1,6 @@
 baseURL: "https://SHELL030.github.io/" # 主站的 URL
 title: Beihan Zhang # 站点标题
-copyright: "[©2024 Shell](https://sonnycalcr.github.io/)" # 网站的版权声明，通常显示在页脚
+copyright: "[©2024 Shell](https://shell030.github.io/)" # 网站的版权声明，通常显示在页脚
 theme: PaperMod # 主题
 languageCode: zh-cn # 语言
 
@@ -23,6 +23,14 @@ languages:
       category: categories
       tag: tags
     # https://gohugo.io/content-management/menus/#define-in-site-configuration
+    profileMode:
+      enabled: true
+      title: 张倍函
+      subtitle:
+      imageUrl: "images/myimage.jpg"
+      imageTitle:
+      imageWidth: 200
+      imageHeight: 200
     menus:
       main:
         - name: 首页
@@ -59,6 +67,7 @@ params:
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
+  ShowSocialIcons: true
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
@@ -73,14 +82,15 @@ params:
       url: "https://twitter.com/yourprofile"
 
   homeInfoParams:
-    Title: "Hey Guys"
+    Title: "张倍函——"
     Content: >
-      你好
-
+      ESG & 企业可持续解决方案
+    image: "images/myimage.jpg"  # 设置你的个人图片
     socialIcons:
       - name: github
         title: Follow my Github
         url: "https://github.com/SHELL030"
+
 
 #搜索
   fuseOpts:
