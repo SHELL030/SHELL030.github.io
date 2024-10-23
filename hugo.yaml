@@ -26,31 +26,32 @@ languages:
     profileMode:
       enabled: true
       title: 张倍函
-      subtitle: "ESG | 可持续解决方案 | 气候风险分析 | 碳市场分析 | CCUS 技术研究<br>"
+      subtitle: "在读研究生：上海交通大学 环境工程 & 爱丁堡大学 气候变化投融资<br>ESG | 可持续解决方案 | 气候风险分析 | 碳市场分析 | CCUS 技术研究"
       imageUrl: "images/myimage.jpg"
       imageTitle:
       imageWidth: 200
       imageHeight: 200
     menus:
       main:
-        - name: 首页
-          pageRef: /
-          weight: 4 # 控制在页面上展示的前后顺序
-        - name: 教育经历
-          pageRef: archives/
+        - name: 关于我
+          pageRef: about/
+          weight: 4
+        - name: 项目经历
+          pageRef: experience/
           weight: 5
-        - name: 分类
-          pageRef: categories/
+        - name: 职业动态
+          pageRef: archives/
           weight: 10
-        - name: 能力标签
-          pageRef: tags/
-          weight: 10
+  #      - name: 分类
+  #        pageRef: categories/
+          weight: 11
+  #      - name: 能力标签
+  #        pageRef: tags/
+          weight: 12
         - name: 搜索
           pageRef: search/
           weight: 20
-        - name: 关于
-          pageRef: about/
-          weight: 21
+
     socialIcons:
       - name: linkedin
         title: Connect with me on LinkedIn
@@ -64,7 +65,9 @@ languages:
       - name: email
         title: Contact me via Email
         url: "mailto: zhangbeihan@sjtu.edu.cn"
-
+      - name: wechat
+        title: Contact me via Wechat
+        url: "/files/wechat.jpg"
 
 
 pagination:
