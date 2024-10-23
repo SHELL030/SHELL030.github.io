@@ -26,7 +26,7 @@ languages:
     profileMode:
       enabled: true
       title: 张倍函
-      subtitle:
+      subtitle: "ESG | 可持续解决方案 | 气候风险分析 | 碳市场分析 | CCUS 技术研究<br>"
       imageUrl: "images/myimage.jpg"
       imageTitle:
       imageWidth: 200
@@ -36,13 +36,13 @@ languages:
         - name: 首页
           pageRef: /
           weight: 4 # 控制在页面上展示的前后顺序
-        - name: 归档
+        - name: 教育经历
           pageRef: archives/
           weight: 5
         - name: 分类
           pageRef: categories/
           weight: 10
-        - name: 标签
+        - name: 能力标签
           pageRef: tags/
           weight: 10
         - name: 搜索
@@ -51,6 +51,21 @@ languages:
         - name: 关于
           pageRef: about/
           weight: 21
+    socialIcons:
+      - name: linkedin
+        title: Connect with me on LinkedIn
+        url: "https://www.linkedin.com/in/beihan-zhang"
+      - name: github
+        title: Follow my Github
+        url: "https://github.com/SHELL030"
+      - name: resume
+        title: View my Resume
+        url: "/files/resume.pdf"
+      - name: email
+        title: Contact me via Email
+        url: "mailto: zhangbeihan@sjtu.edu.cn"
+
+
 
 pagination:
   pagerSize: 8
@@ -82,7 +97,7 @@ params:
       url: "https://twitter.com/yourprofile"
 
   homeInfoParams:
-    Title: "张倍函——"
+    Title: "张倍函"
     Content: >
       ESG & 企业可持续解决方案
     image: "images/myimage.jpg"  # 设置你的个人图片
