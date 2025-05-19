@@ -1,5 +1,5 @@
 ---
-title: "职业动态"
+title: "Projects"
 layout: "archives"
 url: "/archives/"
 summary: archives

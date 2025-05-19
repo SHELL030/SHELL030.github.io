@@ -25,49 +25,54 @@ languages:
     # https://gohugo.io/content-management/menus/#define-in-site-configuration
     profileMode:
       enabled: true
-      title: 张倍函
-      subtitle: "在读研究生：上海交通大学 环境工程 & 爱丁堡大学 气候变化投融资<br>ESG | 可持续解决方案 | 气候风险分析 | 碳市场分析 | CCUS 技术研究"
+      title: Beihan Zhang 张倍函
+      subtitle: "Resource and Environment @SJTU | Climate Change Finance and Investment @UoE<br>ESG | Sustainability | CCUS"
       imageUrl: "images/myimage.jpg"
       imageTitle:
       imageWidth: 200
       imageHeight: 200
+#主菜单编辑，注意名称和对应pageref
     menus:
       main:
-        - name: 关于我
+        - name: About me
           pageRef: about/
           weight: 4
-#        - name: 项目经历
+#        - name: Projects
 #          pageRef: experience/
           weight: 5
-        - name: 项目经历
-          pageRef: categories/
-          weight: 10
-        - name: 职业动态
+#        - name: Projects
+#          pageRef: categories/
+#          weight: 10
+        - name: Projects
           pageRef: archives/
           weight: 11
-        - name: 标签
-          pageRef: tags/
-          weight: 12
-        - name: 搜索
+ #       - name: 标签
+ #         pageRef: tags/
+ #         weight: 12
+        - name: Search
           pageRef: search/
           weight: 20
 
     socialIcons:
       - name: linkedin
-        title: 在LinkedIn上与我建立联系
+        title: Contact me at LinkedIn
         url: "https://www.linkedin.com/in/beihan-zhang"
       - name: github
-        title: 关注我的Github
+        title: follow my Github
         url: "https://github.com/SHELL030"
-      - name: resume
-        title: 查看我的简历
-        url: "/files/resume.pdf"
+ #     - name: resume
+ #       title: 查看我的简历
+ #       url: "/files/resume.pdf"
       - name: email
-        title: 邮件联系
+        title: Email me
         url: "mailto: zhangbeihan@sjtu.edu.cn"
       - name: wechat
-        title: 微信联系
+        title: Add my wechat
         url: "/files/wechat.jpg"
+#      - name: Redbook
+#        title: 小红书
+#        url: ""
+
 
 
 
