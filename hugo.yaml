@@ -60,9 +60,6 @@ languages:
       - name: github
         title: follow my Github
         url: "https://github.com/SHELL030"
- #     - name: resume
- #       title: 查看我的简历
- #       url: "/files/resume.pdf"
       - name: email
         title: Email me
         url: "mailto: zhangbeihan@sjtu.edu.cn"
