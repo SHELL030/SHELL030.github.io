@@ -1,4 +1,5 @@
 baseURL: "https://SHELL030.github.io/" # 主站的 URL
+googleAnalytics: G-ZP07ZQKD05
 title: Beihan Zhang # 站点标题
 copyright: "[©2024 Shell](https://shell030.github.io/)" # 网站的版权声明，通常显示在页脚
 theme: PaperMod # 主题
